@@ -1,0 +1,3 @@
+.hover-layer .image-news div.title, .hover-layer .image-news div.excerpt {
+filter:alpha(opacity=80)；
+}
