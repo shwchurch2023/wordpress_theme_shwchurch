@@ -113,10 +113,10 @@ body {
   width: 75%;
 }
 
-#primary #content .post .entry-content p,
+/* #primary #content .post .entry-content p,
 .text-indent {
   text-indent: 2em;
-}
+} */
 #primary #content {
 
 }
