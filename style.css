@@ -89,7 +89,8 @@ footer, header, hgroup, menu, nav, section {
 /* =Structure
 ----------------------------------------------- */
 
-body {
+#main_choir_hover article {
+  width: calc(100% - 35px);
 }
 
 #page {
@@ -3589,12 +3590,6 @@ footer#colophon {
 
 .hover-layer .entry p a {
   font-size: 12px;
-}
-
-#main_choir_hover article {
-   
-  width: calc(100% - 35px);
-  
 }
 
 #main_ejournal_hover .entry p a,
