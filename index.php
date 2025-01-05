@@ -78,6 +78,30 @@ get_header(); ?>
       </footer>
     </div>
 
+    <div id="main_choir_hover"
+      class="item-<?php echo $i++; ?>  main-content hover-layer border-bottom-radius opacity-default">
+      <header><span class="title">诗班圣诗</span><span class="sw-icon-close sw-icon"></span></header>
+      <section>
+        <?php
+        $args = array(
+          'cat' => 275,
+          'orderby' => 'date',
+          'order' => 'DESC',
+          'post_type' => 'post',
+          'post_status' => 'publish',
+          'suppress_filters' => true
+        );
+        sw_cat_2column($args);
+
+        ?>
+
+
+      </section>
+      <footer>
+
+      </footer>
+    </div>
+
     <div id="main_news_hover"
       class="item-<?php echo $i++; ?>  main-content hover-layer border-bottom-radius opacity-default">
       <header><span class="title">教会新闻</span><span class="sw-icon-close sw-icon"></span></header>
@@ -156,6 +180,8 @@ $j = 1;
     class="main-list  item-<?php echo $j++; ?>"><span class="txt">@守望</span></a>
   <a id="main_bylaw" href="" class="main-list item-<?php echo $j++; ?>" title="查看守望各事工部门的规章制度文档"><span
       class="txt">教会条例</span></a>
+  <a id="main_choir" href="" class="main-list item-<?php echo $j++; ?>" title=""><span
+      class="txt">诗班圣诗</span></a>
 </div>
 
 
