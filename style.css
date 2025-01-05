@@ -3591,10 +3591,10 @@ footer#colophon {
   font-size: 12px;
 }
 
-#main_choir_hover {
-  article {
-    width: calc(100% - 35px);
-  }
+#main_choir_hover article {
+   
+  width: calc(100% - 35px);
+  
 }
 
 #main_ejournal_hover .entry p a,
